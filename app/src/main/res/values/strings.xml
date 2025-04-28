@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SimulazioneLancioDado</string>
+    <string name="risultato">Risultato</string>
+    <string name="immagine_del_dado">Immagine del dado</string>
+    <string name="premi_per_lanciare_il_dado">Premi per lanciare il dado</string>
+    <string name="lancia_il_dado">Lancia il dado</string>
+    <string name="inserisci_un_numero_1_6">Inserisci un numero (1-6)</string>
+    <string name="invia">Invia</string>
 </resources>

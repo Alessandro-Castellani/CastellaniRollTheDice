@@ -5,23 +5,16 @@
     android:gravity="center">
 
     <ImageView
-        android:id="@+id/DiceImageView"
+        android:id="@+id/DiceImageViewFinal"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:contentDescription="@string/immagine_del_dado" />
 
-    <EditText
-        android:id="@+id/DiceEditText"
+    <TextView
+        android:id="@+id/FinalResultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Inserisci un numero (1-6)"
-        android:inputType="number"
-        android:layout_marginTop="16dp"/>
-
-    <Button
-        android:id="@+id/SubmitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Invia"
+        android:text="Risultato"
+        android:textSize="18sp"
         android:layout_marginTop="16dp"/>
 </LinearLayout>

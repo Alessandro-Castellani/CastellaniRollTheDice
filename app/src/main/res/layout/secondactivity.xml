@@ -1,15 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp">
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/DiceImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/immagine_del_dado" />
 
     <TextView
-        android:id="@+id/idSecondText"
-        android:text="Risultato del dado"
-        android:textSize="28sp"
+        android:id="@+id/ResultTextView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Premi per lanciare il dado"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/RollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lancia il dado"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>
